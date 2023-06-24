@@ -65,3 +65,14 @@ body {
     overflow: hidden;
     color: white;
 }
+
+/*Header*/
+
+.header {
+    display: grid;
+    align-content: center;
+}
+
+.header__heading {
+    width: min(43%, 13rem);
+}
