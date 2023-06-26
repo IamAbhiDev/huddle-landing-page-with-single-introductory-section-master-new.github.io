@@ -86,6 +86,11 @@ body {
     gap: 4rem;
 }
 
+.content__illustration {
+    width: min(100%, 30rem);
+    justify-self: center;
+}
+
 .content__info {
     display: grid;
     gap: .9rem;
