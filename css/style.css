@@ -117,3 +117,31 @@ body {
     padding: .7rem 4.7rem;
     margin-top: .7rem;
 }
+
+/*Footer*/
+
+.footer {
+    padding: 1.8rem 0;
+}
+
+.footer__social-icons {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: .75rem;
+}
+
+.footer__social-icons__icon {
+    height: 2rem;
+    width: 2rem;
+    border: 1.4px solid white;
+    border-radius: 50%;
+    cursor: pointer;
+    display: grid;
+    place-content: center;
+}
+
+.footer__social-icons__icon__link {
+    color: white;
+    text-decoration: none;
+}
