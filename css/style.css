@@ -97,6 +97,10 @@ body {
     text-align: center;
 }
 
+.content__info__title__span {
+    display: block;
+}
+
 .content__info__description {
     color: white;
     font-size: clamp(.8rem, 4.3vw, 1rem);
